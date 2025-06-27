@@ -1,48 +1,62 @@
 # Water Quality Prediction 
 
-This project aims to predict multiple water quality parameters using machine learning techniques, specifically `MultiOutputRegressor` wrapped around a `RandomForestRegressor`. It is being developed as part of a one-month **AICTE 4-Week Virtual Internship sponsored by Shell** in **June 2025**.
+This is an ongoing project where I’m working on predicting multiple water quality parameters using machine learning. The approach uses a RandomForestRegressor wrapped with MultiOutputRegressor. It is being developed as part of a one-month **AICTE 4-Week Virtual Internship sponsored by Shell** in **June 2025**.
 
 
-## Overview
 
-Access to clean water is a critical global concern. Accurate prediction of various water quality metrics can help in early detection of pollution and ensure timely intervention.
+## 1. Project Motivation
 
-In this project, till now we have:
-
-- Collected and preprocessed real-world water quality datasets
+Access to clean water is a critical global concern. Being able to forecast several water-quality metrics simultaneously helps flag contamination early and supports quicker remediation.
 
 
-## Technologies Used
+
+## 2. What I Did
+
+| Stage          | Highlights                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------- |
+| **Data**       | Gathered and cleaned real-world water-quality measurements.                                        |
+| **Model**      | Implemented a multi-target regression pipeline (`MultiOutputRegressor` + `RandomForestRegressor`). |
+| **Evaluation** | Assessed performance with **R²** and **MSE** for each target variable.                             |
+
+
+## 3. Tech Stack
 
 - **Python 3.12**
-- **Pandas, NumPy** – Data handling
-- **Scikit-learn** – Machine learning model and evaluation
-- **Matplotlib, Seaborn** – Data visualization
-- **Jupyter Notebook** – Interactive experimentation
+- **Pandas & NumPy** – data handling
+- **Scikit-learn** – modelling + metrics
+- **Matplotlib, Seaborn** – visualization
+- **Colab Notebook** – experimentation environment
 
 
 
-## Predicted Water Quality Parameters
+## 4. Target Variables Predicted
 
 The model predicts multiple water quality parameters such as:
 
 - NH4
 - BOD5 (BSK5)
 - Colloids
-- O2, NO3, NO2, SO4, PO4 and 
+- O2, NO3, NO2, SO4, PO4 
 - CL
 
 
-## Model Link
+## 5. Model Performance
+
+The model achieved acceptable R² scores and low MSE across all targets (see notebook for detailed numbers).
+
+
+## 6. Trained Model Link
 
 -- https://drive.google.com/file/d/1bAC5j0R9WqCy_1aLlFiI5omxTudTRcQA/view?usp=drive_link
 
 
-## Internship Details
+## 7. Internship Context
 
-- **Internship Type**: AICTE Virtual Internship - Edunet Foundation
-- **Sponsor**: Shell  
-- **Duration**: June 2025 (4 weeks)  
-- **Focus Area**: Artificial Intelligence & Machine Learning in Green Technology
+| Item          | Details                                       |
+| ------------- | --------------------------------------------- |
+| **Programme** | AICTE Virtual Internship – Edunet Foundation  |
+| **Sponsor**   | Shell                                         |
+| **Duration**  | June 2025 (1 month)                           |
+| **Focus**     | Machine Learning for Environmental Monitoring |
 
 ---
