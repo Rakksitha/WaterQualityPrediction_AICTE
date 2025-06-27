@@ -33,6 +33,11 @@ The model predicts multiple water quality parameters such as:
 - CL
 
 
+## Model Link
+
+-- https://drive.google.com/file/d/1bAC5j0R9WqCy_1aLlFiI5omxTudTRcQA/view?usp=drive_link
+
+
 ## Internship Details
 
 - **Internship Type**: AICTE Virtual Internship - Edunet Foundation
