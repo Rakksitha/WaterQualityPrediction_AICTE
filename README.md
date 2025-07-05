@@ -47,7 +47,7 @@ The model achieved acceptable R² scores and low MSE across all targets (see not
 
 ## 6. Trained Model Link
 
--- https://drive.google.com/file/d/1bAC5j0R9WqCy_1aLlFiI5omxTudTRcQA/view?usp=drive_link
+-- https://drive.google.com/file/d/18M2v-oehVrtcaVChYFhXqz4unmGMNYtH/view?usp=drive_link
 
 
 ## 7. Internship Context
