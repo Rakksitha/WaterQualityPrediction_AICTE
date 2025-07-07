@@ -72,7 +72,8 @@ Final water quality is classified accordingly in the dashboard.
     - Safety classification per parameter
     - Overall water status: **Safe / Polluted**
     - Bar chart visualization with color-coded safety status
- ![Dashboard Preview](./dashboard.png)
+
+![Dashboard Preview](./dashboard.png)
 
 ## 8. Trained Model Link
 
