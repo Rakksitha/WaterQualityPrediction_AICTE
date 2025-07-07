@@ -59,8 +59,8 @@ Evaluated using **R²**, **MSE**, and **MAE** for each pollutant:
 ## 6. Classification Logic
 
 Predicted pollutant levels are compared against WHO/EPA thresholds:
- - ✅ If within safe limit → <p><em>Safe</em></p>
- - ❌ If exceeding threshold → <p><em>Polluted</em></p>
+ - ✅ If within safe limit → <em>Safe</em>
+ - ❌ If exceeding threshold → <em>Polluted</em>
 
 Final water quality is classified accordingly in the dashboard.
 
@@ -68,10 +68,10 @@ Final water quality is classified accordingly in the dashboard.
 
 - Input: Year, Station ID, optional Month
 - Output:
-    -- Predicted pollutant levels
-    -- Safety classification per parameter
-    -- Overall water status: **Safe / Polluted**
-    -- Bar chart visualization with color-coded safety status
+    - Predicted pollutant levels
+    - Safety classification per parameter
+    - Overall water status: **Safe / Polluted**
+    - Bar chart visualization with color-coded safety status
 
 ## 8. Trained Model Link
 
